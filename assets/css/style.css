@@ -156,9 +156,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-.navbar .getstarted:hover {
+/* .getstarted.active{
+  padding: 8px 25px;
+} */
+
+.navbar .getstarted:hover .getstarted:active {
   color: #fff;
   background: #4aa3df;
+  padding: 8px 25px;
 }
 
 .navbar .dropdown ul {
